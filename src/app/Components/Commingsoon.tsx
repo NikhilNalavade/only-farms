@@ -10,7 +10,8 @@ export default function CommingSoon() {
         <Image
           src={Mobilebanner}
           width={1000}
-          alt="Premium 1, 2 & 3 BHK Homes in Virar West"
+          className=" h-[100vh] w-full  object-cover"
+          alt="Organic Food"
         />
         <div className="absolute top-0 left-0 w-full h-full bg-black opacity-50 z-10"></div>
         <div className="absolute top-0 left-0 w-full h-full flex flex-col items-start justify-center z-20">
@@ -25,7 +26,7 @@ export default function CommingSoon() {
       <div className="w-full hidden md:block relative">
         <Image
           src={PCbanner}
-          alt="Premium 1, 2 & 3 BHK Homes in Virar West"
+          alt="Organic Food"
           width={1500}
           className=" h-[100vh] w-full  object-cover"
         />
