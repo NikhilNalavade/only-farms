@@ -21,10 +21,10 @@ export default function Navbar() {
               Only Fams
             </span>
           </a>
-          <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+          <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse ">
             <button
               type="button"
-              className="text-white bg-[#5fa414]  focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-base px-6 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+              className="text-white bg-[#5fa414]  text-xl font-bold focus:ring-4 focus:outline-none focus:ring-blue-300  rounded-lg  px-6 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
             >
               Cart
             </button>
@@ -57,11 +57,11 @@ export default function Navbar() {
             className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
             id="navbar-cta"
           >
-            <ul className="flex flex-col font-bold p-4 md:p-0 mt-4 border border-gray-100 text-lg  rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0">
+            <ul className="flex flex-col font-bold p-4 md:p-0 mt-4 border border-gray-100 text-lg  rounded-lg md:space-x-20 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 font-Georama">
               <li>
                 <a
                   href="#"
-                  className="block py-2 px-3 md:p-0 hover:text-[#5fa414] text-white  rounded md:bg-transparent"
+                  className="block py-2 px-3 md:p-0 hover:text-[#5fa414] text-white text-2xl  rounded md:bg-transparent"
                   aria-current="page"
                 >
                   Subscriptions
@@ -70,7 +70,7 @@ export default function Navbar() {
               <li>
                 <a
                   href="#"
-                  className="block py-2 px-3 md:p-0 text-white rounded hover:text-[#5fa414] "
+                  className="block py-2 px-3 md:p-0 text-2xl text-white rounded hover:text-[#5fa414] "
                 >
                   About Us
                 </a>
@@ -78,7 +78,7 @@ export default function Navbar() {
               <li>
                 <a
                   href="#"
-                  className="block py-2 px-3 md:p-0 text-white rounded hover:text-[#5fa414] "
+                  className="block py-2 px-3 md:p-0 text-2xl text-white rounded hover:text-[#5fa414] "
                 >
                   Our Plans
                 </a>

@@ -13,6 +13,24 @@ const geistMono = localFont({
   weight: "100 900",
 });
 
+const georama = localFont({
+  src: "./fonts/CormorantGaramond-Regular.ttf",
+  variable: "--font-georama",
+  weight: "100 900",
+});
+
+const playwrite = localFont({
+  src: "./fonts/PlaywriteBEWALGuides-Regular.ttf",
+  variable: "--font-playwrite",
+  weight: "100 900",
+});
+
+const quintessential = localFont({
+  src: "./fonts/Quintessential-Regular.ttf",
+  variable: "--font-playwrite",
+  weight: "100 900",
+});
+
 export const metadata: Metadata = {
   title: "Only Farms",
   description:
@@ -27,7 +45,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${georama.variable} ${playwrite.variable} ${quintessential.variable} antialiased`}
       >
         {children}
       </body>

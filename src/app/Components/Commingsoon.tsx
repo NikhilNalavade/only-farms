@@ -15,10 +15,10 @@ export default function CommingSoon() {
         />
         <div className="absolute top-0 left-0 w-full h-full bg-black opacity-50 z-10"></div>
         <div className="absolute top-0 left-0 w-full h-full flex flex-col items-start justify-center z-20">
-          <h1 className="text-6xl ml-2 text-white font-bold">
+          <h1 className="text-6xl ml-2 text-white font-bold font-Georama italic">
             Launching <br /> Soon...
           </h1>
-          <p className="text-xl p-4 text-white font-semibold">
+          <p className="text-xl p-4 text-white font-semibold font-Georama">
             Farm-to-Table Subscription Box Service that delivers fresh produce
           </p>
         </div>
@@ -32,10 +32,10 @@ export default function CommingSoon() {
         />
         <div className="absolute top-0 left-0 w-full h-full bg-black opacity-30  z-10"></div>
         <div className="absolute top-[20%] right-0  w-[42rem] bg-[#476234] rounded-l-full h-96 flex flex-col items-center justify-center z-20">
-          <h1 className="text-7xl text-white font-bold font">
+          <h1 className="text-7xl text-white font-bold font-Quintessential">
             Launching Soon...
           </h1>
-          <p className="text-3xl text-white font-semibold w-[80%] text-center mt-5">
+          <p className="text-3xl text-white font-semibold w-[75%] text-center mt-5 font-Georama">
             Farm-to-Table Subscription Box Service that delivers fresh produce
           </p>
         </div>
