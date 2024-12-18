@@ -13,6 +13,13 @@ const config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        Georama: ["georama", "sans-serif"],
+        GeistMono: ["geistMono", "sans-serif"],
+        GeistSans: ["geistSans", "sans-serif"],
+        Playwrite: ["playwrite", "sans-serif"],
+        Quintessential: ["quintessential", "sans-serif"],
+      },
     },
   },
   plugins: [flowbite.plugin()],
